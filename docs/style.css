@@ -9,7 +9,7 @@ title
 text-align: center;
 }
 
-h1
+#header
 {
 text-align: center;
 }
@@ -36,12 +36,22 @@ overflow: hidden;
 text-align: center;
 }
 
+
 #cookie {
   border: 5px solid #555;
+  display:block;
+        margin-left: auto;
+        margin-right: auto;
 }
+
+ 
 
 #cat {
   border: 5px double black;
+  
+  display:block;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 nav

@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
- 
  <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="style.css"/>
   <title>the picture page</title>
-  
+  <style>
+ figcaption {
+ font-style: italic;
+ padding: 2px;
+ text-align: center;
+ }
+</style>
  </head>
  
- <body>
+ <body class="gallery">
   <nav>
-  <ul>
-   <li><a href="index.html">index</a></li>
-   <li><a href="about.html">about</a></li>
-   <li><a href="gallery.html">gallery</a></li>
-   <li><a href="resume.html">resume</a></li>
-  </ul>
+   <ul>
+    <li><a href="about.html">about</a></li>
+    <li><a href="gallery.html">gallery</a></li>
+    <li><a href="index.html">projects</a></li>
+    <li><a href="resume.html">resume</a></li>
+    <li><a href="reflection.html">reflection</a></li>
+   </ul>
   </nav>
-  <h1>look at pictures here</h1>
+  <h1 id="header">look at pictures here</h1>
   <hr></hr>
   <figure>
-   <img class = "photo" src="images/cookies.jpg" alt="platter of cookies" width = "500" height = "360"  id = "cookie" />
-    <figcaption>A platter of delicious cookies!</figcaption>
+   <img class = "photo" src="images/cookies.jpg" alt="platter of cookies" width = "500" height = "360"  id = "cookie"/>
+   <figcaption>A platter of delicious cookies!</figcaption>
   </figure>
  
   <figure>
-   <img class = "photo" src="images/cat.jpg" alt="cat wearing some cool shades" width = "500" height = "360"  id = "cat" />
+   <img class = "photo" src="images/cat.jpg" alt="cat wearing some cool shades" width = "500" height = "360"  id = "cat"/>
    <figcaption>A cat with a cool pair of shades!</figcaption>
   </figure>
  
