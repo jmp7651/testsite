@@ -22,6 +22,34 @@ body section.gallery
     margin:auto; 
  justify-content:center;
  }
+body section.game
+{
+    display: flex;
+    flex-direction:row;
+     padding:2em; 
+   background-color: #98FF98 ;
+ justify-content:center;
+ } 
+ 
+ body section.ant
+{
+    display: flex;
+    flex-direction:row;
+     padding:2em; 
+   background-color: #98FF98 ;
+ justify-content:center;
+ } 
+ 
+ body section.number
+{
+    display: flex;
+    flex-direction:row;
+     padding:2em; 
+   background-color: #98FF98 ;
+ justify-content:center;
+ gap: 1px
+ } 
+ 
 hr { 
 display: block;
 margin-top: 0.5em;
